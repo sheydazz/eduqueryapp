@@ -1,12 +1,11 @@
 "use client";
-import { BsQuestionCircleFill } from "react-icons/bs";
 import ButttonGenerateQuestion from "./ButtonGenareteQuestion"
 import { useState } from "react";
 
 const AddQuestionComponent = () => {
   const [count, setCount] = useState(0); // Contador para la cantidad
   const [inputValue, setInputValue] = useState(""); // Estado del input
-  const [showTooltip, setShowTooltip] = useState(false);
+  
  
   return ( 
     <div className="flex flex-col gap-4 items-center justify-center w-full max-w-2xl mx-auto px-4">
@@ -16,20 +15,6 @@ const AddQuestionComponent = () => {
           className="border rounded-md text-black p-4 w-full max-w-md"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)} />
-        {/* <button 
-          onMouseEnter={() => setShowTooltip(true)} 
-          onMouseLeave={() => setShowTooltip(false)}
-          onClick={() => setShowTooltip(!showTooltip)}
-          className="flex-shrink-0"
-        >
-          <BsQuestionCircleFill className="text-gray-700 text-xl" />
-        </button>
-         */}
-        {/* {showTooltip && (
-          <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-64 p-2 bg-gray-200 border rounded shadow-lg text-sm text-black z-50">
-            Escribe un tema que describa las preguntas que deseas generar.
-          </div>
-        )} */}
       </div>
       
       <div className="flex flex-wrap gap-3 justify-center items-center w-full">
