@@ -25,11 +25,11 @@ const AddQuestionComponent = () => {
           <BsQuestionCircleFill className="text-gray-700 text-xl" />
         </button>
         
-        {showTooltip && (
+        {/* {showTooltip && (
           <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-64 p-2 bg-gray-200 border rounded shadow-lg text-sm text-black z-50">
             Escribe un tema que describa las preguntas que deseas generar.
           </div>
-        )}
+        )} */}
       </div>
       
       <div className="flex flex-wrap gap-3 justify-center items-center w-full">

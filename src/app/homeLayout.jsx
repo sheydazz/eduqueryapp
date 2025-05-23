@@ -9,10 +9,9 @@ const HomeLayout = () => {
         <div className="flex flex-col items-center">
           <Image
             src="/assets/logo.png"
-            alt="Logo Eduquery"
             width={700}
             height={500}
-            className="w-[90%] max-w-sm h-auto"
+            alt="Descripción de la imagen"
           />
 
           <h6 className="font-monaco  text-purple-700  mb-5 text-2xl text-center">
