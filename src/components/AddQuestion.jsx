@@ -26,7 +26,7 @@ const AddQuestionComponent = () => {
         </button>
         
         {showTooltip && (
-          <div className="absolute right-4 md:right-24 top-50 w-64 p-2 bg-gray-200 border border-gray-200 rounded shadow-lg text-sm text-black">
+          <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-64 p-2 bg-gray-200 border rounded shadow-lg text-sm text-black z-50">
             Escribe un tema que describa las preguntas que deseas generar.
           </div>
         )}
