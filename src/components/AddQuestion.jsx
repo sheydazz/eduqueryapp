@@ -16,7 +16,7 @@ const AddQuestionComponent = () => {
           className="border rounded-md text-black p-4 w-full max-w-md"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)} />
-        <button 
+        {/* <button 
           onMouseEnter={() => setShowTooltip(true)} 
           onMouseLeave={() => setShowTooltip(false)}
           onClick={() => setShowTooltip(!showTooltip)}
@@ -24,7 +24,7 @@ const AddQuestionComponent = () => {
         >
           <BsQuestionCircleFill className="text-gray-700 text-xl" />
         </button>
-        
+         */}
         {/* {showTooltip && (
           <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-64 p-2 bg-gray-200 border rounded shadow-lg text-sm text-black z-50">
             Escribe un tema que describa las preguntas que deseas generar.
