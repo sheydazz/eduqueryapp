@@ -7,13 +7,14 @@ const HomeLayout = () => {
     <div className="flex flex-1 justify-center items-center">
       <div className="flex flex-col  justify-center items-center align-middle">
         <div className="flex flex-col items-center">
-
           <Image
             src="/assets/logo.png"
+            alt="Logo Eduquery"
             width={700}
             height={500}
-            alt="Descripción de la imagen"
+            className="w-[90%] max-w-sm h-auto"
           />
+
           <h6 className="font-monaco  text-purple-700  mb-5 text-2xl text-center">
             Genera automáticamente Google Forms con AI ✨
           </h6>
